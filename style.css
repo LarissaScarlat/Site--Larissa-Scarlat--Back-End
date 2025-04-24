@@ -16,7 +16,7 @@ body{
 .flex{
     display: flex;
 }
-.btn-contato button{
+ .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -26,6 +26,15 @@ body{
     cursor: pointer;
     transition: .2s;
     }
+h2.titulo{
+color: #fff;
+font-size: 34px;
+text-align: center;
+}
+h2.titulo span{
+    color: darkgoldenrod;
+
+}
 /* ESTILO DO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -97,3 +106,37 @@ transform: scale(1.05);
             top: 30px;
         }
     }
+    /* ESTILO DAS ESPECIALIDADES*/
+
+    section.especiliadades{
+        padding: 40px 4%;
+
+    }
+    section.especiliadades .flex{
+        gap: 60px;
+
+    }
+     /* icones*/
+    .especiliadades .especialidades-box{
+        color: #fff;
+        padding: 40px;
+        border-radius: 20px;
+        margin-top: 40px;
+        transition: 1.2s;
+
+ }
+ .especiliadades .especialidades-box:hover{
+transform: scale(1.05);
+box-shadow: 0 0 20px #ffffff85;
+
+
+ }
+    .especiliadades .especialidades-box i{
+    font-size: 60px;
+    color: darkgoldenrod;
+
+ }
+    .especiliadades.especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0px;
+ }
