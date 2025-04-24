@@ -33,7 +33,7 @@ font-size: 34px;
 text-align: center;
 }
 h2.titulo span{
-    color: darkgoldenrod;
+    color:rgb(197, 194, 20);
 
 }
 /* ESTILO DO CABEÇALHO */
@@ -48,7 +48,7 @@ header > .interface{
 }
 
 header a{
-    color: rgb(228, 228, 101);
+    color: rgb(197, 194, 20);
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -88,7 +88,7 @@ transform: scale(1.05);
         line-height: 40px;
     }
     .topo-do-site .txt-topo-site h1 span{
-        color: rgb(251, 255, 12); 
+        color: rgb(197, 194, 20);
     }
     .topo-do-site .txt-topo-site p{
         color: #fff;
@@ -134,7 +134,7 @@ box-shadow: 0 0 20px #ffffff85;
  }
     .especiliadades .especialidades-box i{
     font-size: 60px;
-    color: darkgoldenrod;
+    color: rgb(197, 194, 20);
 
  }
     .especiliadades.especialidades-box h3{
@@ -159,7 +159,7 @@ box-shadow: 0 0 20px #ffffff85;
     margin-bottom: 20px;
    }
    .sobre .txt-sobre  h2 span{
-    color: darkgoldenrod;
+    color: rgb(197, 194, 20);
     display: block;
    }
    .sobre .txt-sobre p{
@@ -171,7 +171,7 @@ box-shadow: 0 0 20px #ffffff85;
     height: 60px;
     border-radius: 50%;
     border: 0;
-    background-color: goldenrod;
+    background-color: rgb(197, 194, 20);
     font-size: 25px;
     cursor: pointer;
     margin: 0 5px;
@@ -208,7 +208,7 @@ box-shadow: 0 0 20px #ffffff85;
     border-radius: 50%;
     background: #1b1b1b;
     padding: 8px;
-    box-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 0 8px rgb(197, 194, 20);
   }
   
   .cards-projetos {
@@ -255,7 +255,7 @@ box-shadow: 0 0 20px #ffffff85;
   
   .card-projeto a {
     color: #fff;
-    background-color: #ffd700;
+    background-color:rgb(197, 194, 20);
     padding: 8px 16px;
     text-decoration: none;
     border-radius: 6px;
@@ -294,7 +294,7 @@ box-shadow: 0 0 20px #ffffff85;
     border-radius: 10px;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #ffd700;
+    color: rgb(197, 194, 20);
   }
   
   .price {
@@ -391,3 +391,68 @@ box-shadow: 0 0 20px #ffffff85;
     border-radius: 10px; /* opcional: bordas arredondadas */
   }
   /* IMAGEM SOBREEE FIMMM */
+ /* ETAPA DO SITE */
+ .etapas-site {
+    padding: 60px 20px;
+    background-color: #0e0e0e;
+    color: white;
+    text-align: center;
+  }
+  
+  .etapas-texto h5 {
+    letter-spacing: 3px;
+    color: gold;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .etapas-texto h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .etapas-texto p {
+    color: #ccc;
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .etapas-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card-etapa {
+    background-color: #1a1a1a;
+    border: 1px solid gold;
+    border-radius: 15px;
+    padding: 30px 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-etapa:hover {
+    transform: translateY(-8px);
+  }
+  
+  .card-etapa img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .card-etapa h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gold;
+  }
+  
+  .card-etapa p {
+    color: #ccc;
+    font-size: 14px;
+  }
+  
