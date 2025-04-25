@@ -482,4 +482,9 @@ box-shadow: 0 0 20px #ffffff85;
     width: 30px;
     height: 30px;
   }
+  /*LOGO DA LATERAL*/
+  .logo img {
+    width: 100px; /* ou o tamanho que você quiser */
+    height: auto; /* para manter a proporção */
+  }
   
