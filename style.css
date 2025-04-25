@@ -14,6 +14,7 @@ body{
 .interface{
     max-width: 1280px;
     margin: 0 auto;
+  
 }
 .flex{
     display: flex;
@@ -88,6 +89,7 @@ transform: scale(1.05);
         color: aliceblue;
         font-size: 42px;
         line-height: 40px;
+  
     }
     .topo-do-site .txt-topo-site h1 span{
         color: rgb(197, 194, 20);
@@ -369,6 +371,7 @@ box-shadow: 0 0 20px #ffffff85;
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center; /* Alinha horizontalmente se você não usar margin auto */
+    position: relative;
   }
   
   .img-topo-site img {
@@ -486,5 +489,42 @@ box-shadow: 0 0 20px #ffffff85;
   .logo img {
     width: 100px; /* ou o tamanho que você quiser */
     height: auto; /* para manter a proporção */
+  }
+  
+  .foguete-container {
+    position: relative;
+    width: 300px; /* ou o tamanho que você quiser */
+    height: 300px;
+    margin: 0 auto; /* centraliza */
+    perspective: 1000px; /* ativa a perspectiva 3D */
+  }
+  
+  .foguete {
+    width: 380px; /* tamanho do foguete */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateZ(0) rotate(-20deg);
+    animation: fogueteSaindo 2s ease-in-out infinite alternate;
+  }
+  
+  /* Animação 3D do foguete saindo */
+  @keyframes fogueteSaindo {
+    0% {
+      transform: translateX(-50%) translateZ(0) rotate(-20deg);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(200px) rotate(-10deg);
+    }
+  }
+  .hero-section {
+    background-color: #000; /* fundo preto */
+    background-image: url('dots.png'); /* aqui é uma imagem de bolinhas transparentes */
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    min-height: 100vh; /* altura mínima da seção */
+    padding: 50px;
+    color: #fff; /* texto branco */
   }
   
